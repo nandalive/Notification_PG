@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$header</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+    <!-- Wrapper Table -->
+    <table role="presentation" style="width: 100%; max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+        <!-- Header Section -->
+        <tr>
+            <td style="background-color: #5796F6; color: white; text-align: center; padding: 20px 0;">
+                <h1 style="margin: 0; font-family: Arial, sans-serif; font-size: 24px;">$Subject</h1>
+            </td>
+        </tr>
+        <!-- Body Section -->
+        <tr>
+            <td style="padding: 20px; font-family: Arial, sans-serif; font-size: 16px; color: #333333;">
+               <p>Dear $userName,</p>
+               <p>$message</p>
+                <p style="text-align: center;">
+                    <a href="https://www.example.com" style="display: inline-block; background-color: #5796F6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px;">Get Started</a>
+                </p>
+                <p>Best regards, <br> The Example Team</p>
+            </td>
+        </tr>
+        <!-- Footer Section -->
+        <tr>
+            <td style="background-color: #eeeeee; color: #888888; text-align: center; padding: 10px 0; font-family: Arial, sans-serif; font-size: 14px;">
+                <p>You are receiving this email because you signed up for our service. If you no longer wish to receive emails from us, please <a href="https://www.example.com/unsubscribe" style="color: #888888; text-decoration: underline;">unsubscribe here</a>.</p>
+                <p>Example Company | 1234 Street Name, City, Country</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

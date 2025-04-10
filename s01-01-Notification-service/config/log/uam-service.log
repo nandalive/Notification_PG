@@ -1,0 +1,195 @@
+2025-04-08T15:06:59.816+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] c.c.s.S0101NotificationService           : Starting S0101NotificationService using Java 23.0.2 with PID 3792 (D:\Nanda\Personal\Nanda_Partimework\Project_R\simple-service\s01-01-Notification-service\target\classes started by nanda in D:\Nanda\Personal\Nanda_Partimework\Project_R\simple-service\s01-01-Notification-service)
+2025-04-08T15:06:59.831+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] c.c.s.S0101NotificationService           : The following 1 profile is active: "test"
+2025-04-08T15:06:59.940+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08T15:06:59.940+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08T15:07:01.033+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-08T15:07:01.033+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08T15:07:01.252+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204 ms. Found 2 JPA repository interfaces.
+2025-04-08T15:07:01.732+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-08T15:07:01.732+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-08T15:07:01.763+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.cv.s0101notificationservice.repository.GeneralNotificationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-04-08T15:07:01.763+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.cv.s0101notificationservice.repository.RecipientRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-04-08T15:07:01.763+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2025-04-08T15:07:03.345+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-04-08T15:07:03.389+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:07:03.390+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-08T15:07:03.500+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:07:03.500+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3560 ms
+2025-04-08T15:07:04.380+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08T15:07:04.539+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-08T15:07:04.632+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2025-04-08T15:07:04.634+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-08T15:07:05.065+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08T15:07:05.097+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-08T15:07:05.721+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14dfdbab
+2025-04-08T15:07:05.724+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-08T15:07:05.838+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08T15:07:07.329+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08T15:07:07.359+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.SQL                        : alter table recipient_entity drop foreign key FKksxol3h8uxr7fr3llycvenlia
+2025-04-08T15:07:07.424+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.SQL                        : drop table if exists general_notification
+2025-04-08T15:07:07.453+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.SQL                        : drop table if exists recipient_entity
+2025-04-08T15:07:07.516+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.SQL                        : create table general_notification (created_at datetime(6), id bigint not null auto_increment, attachement_path varchar(255), attachement_status varchar(255), body varchar(255), created_by varchar(255), notification_type varchar(255), subject varchar(255), primary key (id)) engine=InnoDB
+2025-04-08T15:07:07.628+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.SQL                        : create table recipient_entity (delivery_time datetime(6), general_notification_id bigint, id bigint not null auto_increment, version bigint, email varchar(255), error_message varchar(255), notification_id varchar(255), sender_name varchar(255), status varchar(255), primary key (id)) engine=InnoDB
+2025-04-08T15:07:07.728+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] org.hibernate.SQL                        : alter table recipient_entity add constraint FKksxol3h8uxr7fr3llycvenlia foreign key (general_notification_id) references general_notification (id)
+2025-04-08T15:07:07.956+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08T15:07:08.213+04:00 DEBUG 3792 --- [s01-01-Notification-service] [restartedMain] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=false]
+2025-04-08T15:07:08.640+04:00  WARN 3792 --- [s01-01-Notification-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08T15:07:09.531+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/uamdb'
+2025-04-08T15:07:09.832+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-08T15:07:09.963+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-04-08T15:07:10.014+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9093]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = notification-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-04-08T15:07:10.138+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-04-08T15:07:10.493+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-04-08T15:07:10.493+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-04-08T15:07:10.493+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1744110430493
+2025-04-08T15:07:10.504+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] o.a.k.c.c.internals.LegacyKafkaConsumer  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Subscribed to topic(s): email-notifications
+2025-04-08T15:07:10.540+04:00  INFO 3792 --- [s01-01-Notification-service] [restartedMain] c.c.s.S0101NotificationService           : Started S0101NotificationService in 11.552 seconds (process running for 12.475)
+2025-04-08T15:07:11.314+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Cluster ID: FVVpjfW4Q6-Q-TM1zA6f0A
+2025-04-08T15:07:11.314+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Discovered group coordinator 10.101.8.153:9093 (id: 2147483646 rack: null)
+2025-04-08T15:07:11.317+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] (Re-)joining group
+2025-04-08T15:07:11.349+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-1-44b57f80-8bf9-4f6a-b867-564c9238c00d
+2025-04-08T15:07:11.350+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] (Re-)joining group
+2025-04-08T15:07:14.369+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Successfully joined group with generation Generation{generationId=39, memberId='consumer-notification-group-1-44b57f80-8bf9-4f6a-b867-564c9238c00d', protocol='range'}
+2025-04-08T15:07:14.370+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Finished assignment for group at generation 39: {consumer-notification-group-1-44b57f80-8bf9-4f6a-b867-564c9238c00d=Assignment(partitions=[email-notifications-0])}
+2025-04-08T15:07:14.423+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Successfully synced group in generation Generation{generationId=39, memberId='consumer-notification-group-1-44b57f80-8bf9-4f6a-b867-564c9238c00d', protocol='range'}
+2025-04-08T15:07:14.425+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[email-notifications-0])
+2025-04-08T15:07:14.429+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Adding newly assigned partitions: email-notifications-0
+2025-04-08T15:07:14.457+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition email-notifications-0 to the committed offset FetchPosition{offset=21, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.101.8.153:9093 (id: 1 rack: null)], epoch=0}}
+2025-04-08T15:07:14.458+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: [email-notifications-0]
+2025-04-08T15:07:28.034+04:00  WARN 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.velocity.deprecation          : configuration key 'class.resource.loader.class' has been deprecated in favor of 'resource.loader.class.class'
+2025-04-08T15:07:28.034+04:00  WARN 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.velocity.deprecation          : configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2025-04-08T15:08:37.975+04:00  WARN 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.velocity.deprecation          : configuration key 'class.resource.loader.class' has been deprecated in favor of 'resource.loader.class.class'
+2025-04-08T15:08:37.976+04:00  WARN 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.velocity.deprecation          : configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2025-04-08T15:09:38.455+04:00  WARN 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.velocity.deprecation          : configuration key 'class.resource.loader.class' has been deprecated in favor of 'resource.loader.class.class'
+2025-04-08T15:09:38.456+04:00  WARN 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.velocity.deprecation          : configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2025-04-08T15:16:11.368+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Node -1 disconnected.
+2025-04-08T15:26:11.590+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Node -1 disconnected.
+2025-04-08T16:02:04.544+04:00  INFO 3792 --- [s01-01-Notification-service] [kafka-coordinator-heartbeat-thread | notification-group] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Group coordinator 10.101.8.153:9093 (id: 2147483646 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2025-04-08T16:02:04.544+04:00  INFO 3792 --- [s01-01-Notification-service] [kafka-coordinator-heartbeat-thread | notification-group] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Requesting disconnect from last known coordinator 10.101.8.153:9093 (id: 2147483646 rack: null)
+2025-04-08T16:02:04.545+04:00  INFO 3792 --- [s01-01-Notification-service] [kafka-coordinator-heartbeat-thread | notification-group] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Client requested disconnect from node 2147483646
+2025-04-08T16:02:04.644+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Discovered group coordinator 10.101.8.153:9093 (id: 2147483646 rack: null)
+2025-04-08T16:02:30.385+04:00  WARN 3792 --- [s01-01-Notification-service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s648ms373µs700ns).
+2025-04-08T16:03:54.225+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Revoke previously assigned partitions email-notifications-0
+2025-04-08T16:03:54.225+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions revoked: [email-notifications-0]
+2025-04-08T16:03:54.230+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Member consumer-notification-group-1-44b57f80-8bf9-4f6a-b867-564c9238c00d sending LeaveGroup request to coordinator 10.101.8.153:9093 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2025-04-08T16:03:54.232+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-04-08T16:03:54.232+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Request joining group due to: consumer pro-actively leaving the group
+2025-04-08T16:03:54.232+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.LegacyKafkaConsumer  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Unsubscribed all topics or patterns and assigned partitions
+2025-04-08T16:03:54.232+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-04-08T16:03:54.232+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Request joining group due to: consumer pro-actively leaving the group
+2025-04-08T16:03:54.407+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-04-08T16:03:54.407+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-04-08T16:03:54.407+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-04-08T16:03:54.407+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-04-08T16:03:54.426+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-notification-group-1 unregistered
+2025-04-08T16:03:54.429+04:00  INFO 3792 --- [s01-01-Notification-service] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: Consumer stopped
+2025-04-08T16:03:54.436+04:00  INFO 3792 --- [s01-01-Notification-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08T16:03:54.460+04:00  INFO 3792 --- [s01-01-Notification-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-08T16:03:54.498+04:00  INFO 3792 --- [s01-01-Notification-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08T16:03:54.511+04:00  INFO 3792 --- [s01-01-Notification-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-08T16:03:54.548+04:00  INFO 3792 --- [s01-01-Notification-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

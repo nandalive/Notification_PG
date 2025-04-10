@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for s01-01-notification-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../Software/repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+          <entry name="$PROJECT_DIR$/../../../Software/repo/org/mapstruct/mapstruct-processor/1.6.2/mapstruct-processor-1.6.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Software/repo/org/mapstruct/mapstruct/1.6.2/mapstruct-1.6.2.jar" />
+        </processorPath>
+        <module name="s01-01-Notification-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="s01-01-Notification-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+    </option>
+  </component>
+</project>
